@@ -1,6 +1,6 @@
 # EXP-3: SIMULATION AND IMPLEMENTATION OF MULTIPLIER
 
-Date:
+**Date:**
 
 
 **AIM:**
@@ -11,7 +11,6 @@ Xilinx 14.7
 Spartan6 FPGA
   
 **PROCEDURE:**
-
 
 STEP:1  Start  the Xilinx navigator, Select and Name the New project.
 
@@ -38,11 +37,11 @@ STEP:11  On the board, by giving required input, the LEDs starts to glow light, 
 
 **2 bit Multiplier**
 
-Logic Diagram:
+**Logic Diagram:**
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-3/assets/6987778/7713750f-65e6-41c0-8082-5005eac4031c)
 
-Verilog code:
+**Verilog code:**
 
 ```
 module ha(a,b,sum,carry);
@@ -65,17 +64,17 @@ ha ha2(w3,w4,c[2],c[3]);
 endmodule
 ```
 
-Output:
+**Output:**
 
 ![image](https://github.com/Bharathsampat/VLSI-LAB-EXP-3/assets/147235565/f4bc8195-4728-4459-bea0-d2d8f8ede2a0)
 
 **4 Bit Multiplier**
 
-Logic Diagram:
+**Logic Diagram:**
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-3/assets/6987778/d95215dd-8cf1-4e08-93cc-96adfdd7fbdc)
 
-Verilog code:
+**Verilog code:**
 
 ```
 module halfadder(a,b,s,c);
@@ -116,11 +115,11 @@ fa fa8(w[11],x[3]&y[3],w[17],z[6],z[7]);
 endmodule
 ```
 
-Output:
+**Output:**
 
 ![image](https://github.com/Bharathsampat/VLSI-LAB-EXP-3/assets/147235565/7b9b40c2-26bf-45fa-adad-d10ab8aff0c2)
 
-**Result:**
+**RESULT:**
 Thus the simulation and synthesis of multiplier using Xilinx ISE is done successfully.
 
 
